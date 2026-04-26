@@ -1,7 +1,5 @@
 # GTM Canvas Agent Skill
 
-> **Version:** 1.5.0 | **Author:** Meraj Faheem ([gtmcanvas.com](https://gtmcanvas.com)) | **License:** CC BY-NC 4.0
-
 An agent skill that transforms any AI assistant into an interactive **GTM Canvas facilitator** — walking users through all 8 components of the GTM Canvas framework and producing a complete, actionable go-to-market strategy.
 
 ---
@@ -71,20 +69,6 @@ response = openai.chat.completions.create(
 ### Dify / Flowise / n8n
 - Import `knowledge/gtm-canvas-handbook.md` as a Knowledge Base document
 - Paste `SKILL.md` content into the Agent's System Prompt node
-
----
-
-## What the Skill Does
-
-When activated, the AI will:
-
-1. **Greet** the user and collect Project Name, GTM Lead, and product description
-2. **Walk through all 8 components** one at a time, conversationally
-3. **Facilitate** — push back on vague answers, celebrate strong ones, give examples when users are stuck
-4. **Produce a complete GTM Canvas** in the official structured format
-5. **Flag pre-launch gaps** (analytics, email automation, ESPN stack, etc.)
-6. **Generate a Sprint 1 action list** with 5–7 concrete next steps
-7. **Remind** the user that GTM is iterative and the canvas is revisited every 2 weeks
 
 ---
 
