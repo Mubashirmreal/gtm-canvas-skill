@@ -71,18 +71,3 @@ response = openai.chat.completions.create(
 - Paste `SKILL.md` content into the Agent's System Prompt node
 
 ---
-
-## The 8 GTM Canvas Components
-
-| # | Component | Core Question |
-|---|-----------|---------------|
-| 1 | Primary Feature | What do users come for and would miss most? |
-| 2 | Primary Sellable Feature | What do they actually pay for? |
-| 3 | Differentiator | How do you win the comparison war? |
-| 4 | Alpha (Unfair Advantage) | What can competitors never replicate? |
-| 5 | Handpick Users | Who are the first 100 real humans you'll onboard? |
-| 6 | Profiling | What does a typical user look like? |
-| 7 | Source | Where do they live online and offline? |
-| 8 | Medium / Channel | How will you reach them? |
-
----
